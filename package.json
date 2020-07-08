@@ -16,7 +16,7 @@
     "type": "git",
     "url": "git+https://github.com/joetjacobs/cordova-ionic-plugin-mapbox.git"
   },
-  "version": "1.1.0",
+  "version": "1.2.0",
   "bugs": {
     "url": "https://github.com/joetjacobs/cordova-ionic-plugin-mapbox/issues"
   },
