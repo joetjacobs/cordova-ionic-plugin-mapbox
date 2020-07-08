@@ -1,0 +1,21 @@
+{
+  "author": "Joe jacob (http://ionic.com)",
+  "deprecated": false,
+  "description": "Ionic/Cordova Plugin for mapbox navigation.",
+  "homepage": "https://github.com/joetjacobs/cordova-ionic-plugin-mapbox",
+  "keywords": [
+    "ionic",
+    "cordova",
+    "mapbox",
+    "navigation"
+  ],
+  "license": "MIT",
+  "main": "www/navigation.js",
+  "name": "cordova-ionic-plugin-mapbox",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joetjacobs/cordova-ionic-plugin-mapbox.git"
+  },
+  "version": "1.0.0"
+  
+}

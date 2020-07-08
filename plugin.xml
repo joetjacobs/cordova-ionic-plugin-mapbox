@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        id="cordova-ionic-plugin-mapbox" 
+        version="1.0.0">
+    <name>MapboxNavigationPlugin</name>
+    <description>Mapbox navigation Plugin</description>
+    <engines>
+        <engine name="cordova" version=">=3.0.0" />
+    </engines>
+    <js-module src="www/navigation.js" name="MapboxPlugin">
+        <clobbers target="plugins.navigation" />
+    </js-module>
+
+    <!--android -->
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="MapboxPlugin">
+                <param name="android-package" value="com.icsfl.rfsmart.navigation.MapboxPlugin"/>
+            </feature>
+        </config-file>
+        <config-file target="AndroidManifest.xml" parent="/*">
+           <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+            <activity android:label="MainActivity" android:name="com.icsfl.rfsmart.navigation.MainActivity"></activity>
+        </config-file>
+        
+        <source-file src="src/android/MapboxPlugin.java" target-dir="src/com/icsfl/rfsmart/navigation" />
+        <source-file src="src/android/MainActivity.java" target-dir="src/com/icsfl/rfsmart/navigation" />
+        <source-file src="src/android/activity_main.xml" target-dir="res/layout"/>
+        <source-file src="src/android/colors.xml" target-dir="res/values"/>
+        <source-file src="src/android/strings.xml" target-dir="res/values"/>
+        <source-file src="src/android/styles.xml" target-dir="res/values"/>
+        
+    </platform>
+</plugin>
