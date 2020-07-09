@@ -2,25 +2,25 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">#33C377</item>
+        <item name="colorPrimaryDark">#FF218450</item>
+        <item name="colorAccent">#FF4081</item>
     </style>
 
     <style name="NavigationMapRoute">
         <!-- Colors -->
-        <item name="routeColor">@color/mapboxBlue</item>
-        <item name="routeModerateCongestionColor">@color/mapboxYellow</item>
-        <item name="routeSevereCongestionColor">@color/mapboxPink</item>
-        <item name="routeShieldColor">@color/mapboxWhite</item>
+        <item name="routeColor">#4264fb</item>
+        <item name="routeModerateCongestionColor">#d9d838</item>
+        <item name="routeSevereCongestionColor">#ee4e8b</item>
+        <item name="routeShieldColor">#ffffff</item>
         <!-- Scales -->
         <item name="routeScale">1.0</item>
     </style>
 
     <style name="NavigationView" parent="Theme.AppCompat.NoActionBar">
-        <item name="navigationViewPrimary">@color/mapboxWhite</item>
-        <item name="navigationViewSecondary">@color/mapboxBlue</item>
-        <item name="navigationViewAccent">@color/mapboxPink</item>
+        <item name="navigationViewPrimary">#ffffff</item>
+        <item name="navigationViewSecondary">#4264fb</item>
+        <item name="navigationViewAccent">#ee4e8b</item>
     </style>
 
 </resources>
