@@ -21,6 +21,9 @@
         </config-file>
         <config-file target="AndroidManifest.xml" parent="/*">
            <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+            
+        </config-file>
+        <config-file target="AndroidManifest.xml" parent="/manifest/application">
             <activity android:label="MainActivity" android:name="com.icsfl.rfsmart.navigation.MainActivity"></activity>
         </config-file>
         
